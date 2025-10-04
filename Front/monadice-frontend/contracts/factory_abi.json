@@ -1,0 +1,23 @@
+[
+  {
+    "inputs": [
+      { "internalType": "string", "name": "title", "type": "string" },
+      { "internalType": "string", "name": "symbol", "type": "string" },
+      { "internalType": "uint256", "name": "endTime", "type": "uint256" },
+      { "internalType": "uint256", "name": "feeBps", "type": "uint256" }
+    ],
+    "name": "createCampaign",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "internalType": "address", "name": "creator", "type": "address" },
+      { "indexed": false, "internalType": "address", "name": "campaignAddress", "type": "address" }
+    ],
+    "name": "CampaignDeployed",
+    "type": "event"
+  }
+]

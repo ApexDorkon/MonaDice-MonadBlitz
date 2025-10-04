@@ -1,0 +1,41 @@
+# === Core ===
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+starlette==0.38.6
+pydantic==2.9.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+SQLAlchemy==2.0.35
+alembic==1.13.2
+orjson==3.10.7
+
+# === Database ===
+psycopg2-binary==2.9.10
+
+
+# === Security / Auth ===
+python-jose==3.3.0
+jwcrypto==1.5.6
+email-validator==2.2.0
+
+# === HTTP & Networking ===
+httpx==0.27.2
+requests==2.32.3
+
+# === Web3 / Crypto ===
+web3==6.20.1
+eth-account==0.11.3
+eth-abi==5.2.0
+eth-utils==4.1.1
+eth-keys==0.7.0
+eth-typing==4.4.0
+rlp==4.1.0
+pycryptodome==3.23.0
+siwe==3.0.0
+
+# === Utilities ===
+click==8.2.1
+typing_extensions==4.15.0
+greenlet==3.1.1
+wheel==0.45.1
+setuptools==80.9.0

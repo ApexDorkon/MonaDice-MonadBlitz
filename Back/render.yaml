@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: monadice-backend
+    env: python
+    plan: free
+    runtime: python-3.12.3
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: |
+      uvicorn app.main:app --host 0.0.0.0 --port $PORT
