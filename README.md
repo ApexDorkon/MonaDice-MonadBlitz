@@ -34,5 +34,8 @@ function createCampaign(address creator, uint256 minStake, uint256 feeBP, uint25
 function join(uint8 side, uint256 amount) external;
 function resolve(uint8 winningSide, bytes calldata proof) external;
 function claim(uint256 tokenId) external;
+
+
+----
 <img width="1920" height="1080" alt="protocol" src="https://github.com/user-attachments/assets/16ea9a1d-4860-4d4a-a408-ae2231fc1cf0" />
 
