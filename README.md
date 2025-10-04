@@ -1,4 +1,7 @@
-# monaDice — Social Sidebets (README.md)
+# monaDice — Social Sidebets
+
+![Protocol Overview](./protocol.png)
+
 
 **Short description**  
 monaDice converts social speculation into on-chain, tradable bets. Users create per-bet `Campaign` contracts directly via a `Factory` (no chat-bot required). Participants join a side (YES/NO) by staking USDC to the campaign; each join mints a transferable **Ticket NFT** (ERC-721) whose `tokenId` equals the join order. After on-chain resolution, winning ticket holders claim their share from the campaign contract.
@@ -34,8 +37,4 @@ function createCampaign(address creator, uint256 minStake, uint256 feeBP, uint25
 function join(uint8 side, uint256 amount) external;
 function resolve(uint8 winningSide, bytes calldata proof) external;
 function claim(uint256 tokenId) external;
-
-
-----
-<img width="1920" height="1080" alt="protocol" src="https://github.com/user-attachments/assets/16ea9a1d-4860-4d4a-a408-ae2231fc1cf0" />
 
